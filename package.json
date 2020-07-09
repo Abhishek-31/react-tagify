@@ -1,7 +1,7 @@
 {
   "author":"Abhishek Agarwal",
   "bugs": {
-    "url": "https://github.com/abhishek-31/react-tagify/issues"
+    "url": "https://github.com/Abhishek-31/react-tagify-dnd/issues"
   },
   "bundleDependencies": false,
   "config": {
@@ -16,7 +16,7 @@
     "prop-types": "~15.7.0"
   },
   "deprecated": false,
-  "description": "React tagify is super customisable drag and drop tags cum autocomplete which brings context to input field after selecting any suggestion.",
+  "description": "React tagify DND is super customisable drag and drop tags cum autocomplete which brings context to input field after selecting any suggestion.",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -64,7 +64,7 @@
     "dist-modules",
     "dist"
   ],
-  "homepage": "https://github.com/abhishek-31/react-tagify#readme",
+  "homepage": "https://github.com/Abhishek-31/react-tagify-dnd#readme",
   "keywords": [
     "react",
     "drag-drop",
@@ -72,11 +72,17 @@
     "tag input",
     "react-component",
     "autosuggest",
-    "abhishek"
+    "abhishek",
+    "react-tagify-dnd",
+    "react-tags",
+    "boxes inside input box",
+    "tags inside text area",
+    "boxes on enter",
+    "drag-drop tags"
   ],
   "license": "MIT",
   "main": "dist-modules/components/ReactTags.js",
-  "name": "react-tagify",
+  "name": "react-tagify-dnd",
   "peerDependencies": {
     "react": "^16.3.1",
     "react-dnd": "^5.0.0",
@@ -85,7 +91,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abhishek-31/react-tagify.git"
+    "url": "git+https://github.com/Abhishek-31/react-tagify-dnd.git"
   },
   "scripts": {
     "build": "webpack --config webpack-production.config.js --progress --colors && babel src --out-dir dist-modules --copy-files",
